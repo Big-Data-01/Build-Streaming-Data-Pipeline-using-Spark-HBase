@@ -83,4 +83,4 @@ Java API, but can also be accessed via REST, Avro, or the Thrift Gateway API.
 ● Create a Phoenix view on top of the HBase table
 
 ### Project Architecture
-oil_well_uc_architecture.png
+<img src="oil_well_uc_architecture.png">
