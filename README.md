@@ -52,7 +52,7 @@ Java API, but can also be accessed via REST, Avro, or the Thrift Gateway API.
 
 ● AWS EC2
 ● Docker
-● Scala
+● python
 ● HBase
 ● Apache Spark SQL
 ● Spark Structured Streaming
@@ -82,4 +82,5 @@ Java API, but can also be accessed via REST, Avro, or the Thrift Gateway API.
 ● Understanding of Apache Phoenix
 ● Create a Phoenix view on top of the HBase table
 
-
+### Project Architecture
+oil_well_uc_architecture.png
