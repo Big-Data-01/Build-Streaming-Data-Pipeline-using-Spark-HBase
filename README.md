@@ -51,35 +51,57 @@ Java API, but can also be accessed via REST, Avro, or the Thrift Gateway API.
 ### Tech Stack
 
 ● AWS EC2
+
 ● Docker
+
 ● python
+
 ● HBase
+
 ● Apache Spark SQL
+
 ● Spark Structured Streaming
+
 ● HDFS
+
 ● Apache Phoenix
+
 ● SBT
 
 ### Approach
 
 ● Create an AWS EC2 instance and launch it.
+
 ● Create docker images using docker-compose file on EC2 machine via ssh.
+
 ● Download the dataset and load it into HDFS storage.
+
 ● Read data from HDFS storage and write into HBase table using Spark.
+
 ● Create Phoenix view on top of HBase table to analyze data using SQL queries.
 
 ### Project Takeaways
 
 ● Understanding various services provided by AWS
+
 ● Creating an AWS EC2 instance and launching it
+
 ● Connecting to an AWS EC2 instance via SSH
+
 ● Copying a file from a local machine to an EC2 machine
+
 ● Dockerization
+
 ● Download the dataset and load it into HDFS
+
 ● Difference between RDBMS and HBase
+
 ● SBT packaging
+
 ● Read data from HDFS and write into HBase tables
+
 ● Understanding of Apache Phoenix
+
 ● Create a Phoenix view on top of the HBase table
 
 ### Project Architecture
